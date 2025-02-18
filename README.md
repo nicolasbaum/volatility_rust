@@ -56,14 +56,6 @@ A real-time volatility estimator for the ETH/USDC pair that primarily uses Binan
   - Service continuity
   - Detailed error messages
 
-## Project Structure
-
-├── src/
-│ ├── main.rs # Entry point
-│ ├── price_collector.rs # Price data collectors
-│ ├── volatility.rs # Volatility calculation
-│ └── config.rs # Configuration
-
 
 ## Setup and Installation
 
