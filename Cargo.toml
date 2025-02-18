@@ -1,0 +1,21 @@
+[package]
+name = "eth-volatility"
+version = "0.1.0"
+edition = "2021"
+
+[features]
+uniswap = ["web3"]  # Optional Uniswap support
+
+[dependencies]
+tokio = { version = "1.28", features = ["full"] }
+web3 = { version = "0.19", optional = true }
+tungstenite = { version = "0.19", features = ["native-tls"] }
+url = "2.3"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+chrono = { version = "0.4", features = ["serde"] }
+log = "0.4"
+env_logger = "0.10"
+statrs = "0.16"
+dotenv = "0.15"
+async-trait = "0.1" 
