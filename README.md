@@ -125,14 +125,14 @@ Main crates used:
 - `env_logger`: Structured logging functionality
 
 ## Output Example
-
+```
 [2024-XX-XX HH:MM:SS INFO] Starting ETH/USDC volatility estimator...
 [2024-XX-XX HH:MM:SS INFO] Connecting to Ethereum node at https://mainnet.infura.io/v3/...
 [2024-XX-XX HH:MM:SS INFO] Initializing price collectors...
 [2024-XX-XX HH:MM:SS INFO] Starting main loop...
 [2024-XX-XX HH:MM:SS INFO] Received price: $2345.67 from Aggregated
 [2024-XX-XX HH:MM:SS INFO] Current volatility estimate: 2.3456%
-
+```
 ## Error Handling
 
 The implementation includes:
